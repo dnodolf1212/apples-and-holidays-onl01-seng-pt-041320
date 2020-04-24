@@ -22,7 +22,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
     holiday_hash.each.do |season|
       if season.to_s == "summer" 
         holiday.to_s do |supply, index|
-          supply[1]
+          puts supply[1]
         end
       end
     
