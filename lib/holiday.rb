@@ -69,6 +69,8 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.map do |season, holidays|
     puts "#{season.capitalize}:"
+    holidays.map do |holiday, supply|
+      
 
 end
 
