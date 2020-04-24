@@ -36,12 +36,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       array1 << supply
       if array2 == :new_years
         array2 << supply
-      
-  
-  
-          
-          
-  
+      end
+    end
+  end
 end
 
 
