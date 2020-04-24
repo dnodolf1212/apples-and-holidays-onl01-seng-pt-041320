@@ -24,6 +24,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       if season.to_s == "summer" 
         holiday.to_s do |supply, index|
           puts supply[1]
+          binding.pry
         end
       end
     
