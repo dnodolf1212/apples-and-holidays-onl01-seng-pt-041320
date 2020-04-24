@@ -24,6 +24,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
       if season.to_s == "summer" 
         holiday.to_s do |supply|
           if supply == "BBQ"
+            binding.pry
           supply
         end
       end
