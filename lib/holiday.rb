@@ -35,6 +35,11 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       holiday.each do |christmas, new_years|
         if christmas == :christmas => [] << x 
           if new_years == :new_years => [] << x
+        end
+      end
+    end
+  end 
+  
           
           
   
