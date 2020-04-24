@@ -21,6 +21,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   def second_supply_for_fourth_of_july(holiday_hash)
     holiday_hash.each.do |holiday, data|
       if holiday.to_s == "summer" 
+        data.
     
     
     end
